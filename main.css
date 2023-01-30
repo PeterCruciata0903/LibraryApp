@@ -1,0 +1,86 @@
+body {
+  background-image: "library.jpg";
+  }  
+  button {   
+         background-color: #000000;   
+         width: 55%;  
+          color: rgb(253, 253, 253);   
+          padding: 15px;   
+          margin: 10px 0px;   
+          border: none;   
+          cursor: pointer;   
+           }   
+   input {
+      font-family: Georgia, serif; 
+      background-color: #ffffff;   
+      width: 55%;
+      padding: 15px;   
+      margin: 10px 0px;   
+      border: none;    
+      }   
+      body {
+      background: #ecf3f3;
+  }
+  .topnav{
+      font-family: Georgia, serif; 
+      background-color: rgb(95, 179, 190);
+      overflow: hidden;       
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: rgb(95, 179, 190);
+    color: rgb(95, 179, 190);
+  }
+
+  .card {
+background-color: #add4d6;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 800px;
+margin: auto;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.hero{
+background-image:  url("libhero.png");
+height: 300px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+color: white;
+
+}
+.herotxt
+{
+-webkit-text-stroke: .5px #000000;
+}
+.res
+{
+margin-top: 20px;
+}
+img{
+margin-top: 10px;
+}
+table, th, td {
+border:1px solid black;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+text-align: center;
+}
+.Date-of-Birth{
+background-color: #000000;
+}

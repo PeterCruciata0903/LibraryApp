@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background: #ecf3f3;
+}
+
+.topnav{
+    font-family: Georgia, serif; 
+    background-color: rgb(95, 179, 190);
+         
+}
+.topnav a {
+  
+  color: #f2f2f2;
+  text-align: center;
+  
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: rgb(95, 179, 190);
+  color: rgb(95, 179, 190);
+}
+.home-spacer {
+    
+}
+
+.home-spacer form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+input {
+    
+    border: none;
+    padding: 15px 25px;
+    
+   
+}
+
+input::placeholder {
+    color: rgb(253, 253, 253);
+}
+
+input:focus {
+    outline: none;
+    border: 3pt solid rgb(82, 81, 81);
+}
+
+.home-spacer input {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.home-spacer input:before, .home-spacer input:after {
+			       content: '"';
+			   }
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 300;
+}
+
+a {
+    color: #fff
+}
+
+.loader {
+    margin: 0 auto;
+    border: 15px solid #fff; /* Light grey */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2em;
+    width: 150px;
+    height: 200px;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.bookmatch {
+    text-align: center;
+}
+
+.bookmatch img {
+    border-radius: 10px;
+    width: 150px;
+    margin: 0 auto;
+    border: 15px solid #fff;
+}
+.topnav{
+    font-family: Georgia, serif; 
+    background-color: rgb(95, 179, 190);
+    overflow: hidden; 
+         margin-bottom: 20px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: rgb(95, 179, 190);
+  color: rgb(95, 179, 190);
+}
+.hero{
+    padding: 20px;
+    background-image:  url("libhero.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    
+  }
+  .page-title
+  {
+    font-size: 70px;
+    -webkit-text-stroke: 2px #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+.booksch
+{
+    padding-top: 20px;
+}
